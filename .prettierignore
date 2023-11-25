@@ -1,0 +1,5 @@
+`**/*.yaml
+supabase/.temp/**/*
+.dist/**/*
+.next/**/*
+pnpm-lock.yaml
