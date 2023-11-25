@@ -1,0 +1,9 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // Runs Prettier, then ESLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
