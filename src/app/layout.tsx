@@ -3,9 +3,10 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 
+import { bio } from "~/bio";
 import { ThemeProvider } from "~/components/ui/theme-provider";
 import { getBaseUrl } from "~/lib/getbaseUrl";
-import { bio } from "~/bio";
+
 const baseUrl = getBaseUrl();
 
 export const metadata: Metadata = {

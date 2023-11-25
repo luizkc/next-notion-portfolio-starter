@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { bio } from "~/bio";
 
+import { bio } from "~/bio";
 import { getBaseUrl } from "~/lib/getbaseUrl";
 import { n2m } from "~/notion";
 import { getArticle } from "~/notion/get-article";

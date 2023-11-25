@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+
 import { bio } from "~/bio";
 
 export function Logo() {

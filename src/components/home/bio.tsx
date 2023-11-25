@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { bio } from "~/bio";
 
+import { bio } from "~/bio";
 import { parentVariants } from "~/lib/animations";
 
 export function Bio() {

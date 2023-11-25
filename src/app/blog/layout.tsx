@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { bio } from "~/bio";
 
+import { bio } from "~/bio";
 import { BlogLayout } from "~/components/blog/layout";
 
 export const metadata: Metadata = {

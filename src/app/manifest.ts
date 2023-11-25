@@ -1,6 +1,6 @@
 import { type MetadataRoute } from "next";
-import { bio } from "~/bio";
 
+import { bio } from "~/bio";
 import { getBaseUrl } from "~/lib/getbaseUrl";
 
 export default function manifest(): MetadataRoute.Manifest {

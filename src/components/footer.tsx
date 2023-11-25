@@ -7,6 +7,7 @@ import { default as NextLink } from "next/link";
 import { ModeToggle } from "./ui/mode-toggle";
 import { Logo } from "./logo";
 
+import { bio } from "~/bio";
 import {
   Tooltip,
   TooltipContent,
@@ -14,7 +15,6 @@ import {
   TooltipTrigger,
 } from "~/components/ui/tooltip";
 import { parentVariants } from "~/lib/animations";
-import { bio } from "~/bio";
 
 const Link = motion(NextLink);
 
